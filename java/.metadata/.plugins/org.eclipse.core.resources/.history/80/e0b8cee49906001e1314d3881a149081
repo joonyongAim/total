@@ -1,0 +1,23 @@
+package 배열;
+
+import java.util.Arrays;
+
+public class Sample05 {
+
+	public static void main(String[] args) {
+		
+		int[] lotto = new int[6];
+		int i,j;
+		
+		for(i=0; i<lotto.length; i++) {
+			for(j=0; j<lotto.length; j++) {
+				if(i != j) {
+					
+				}
+			}lotto[j] = (int)(Math.random() * 6) + 1;
+		}
+		System.out.println(Arrays.toString(lotto));
+
+	}
+
+}

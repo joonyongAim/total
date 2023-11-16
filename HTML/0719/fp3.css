@@ -1,0 +1,15 @@
+.container > div {
+  height: 100px;
+  width: 200px;
+  background: yellowgreen;
+  border: 1px solid;
+}
+
+.container {
+  display: flex;
+}
+
+.container > div:nth-child(1) {
+  background: purple;
+  margin-right: auto;
+}

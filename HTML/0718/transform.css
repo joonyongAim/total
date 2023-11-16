@@ -1,0 +1,92 @@
+.container {
+  border: 1px solid black;
+}
+
+.container div {
+  background: skyblue;
+  width: 100px;
+  margin: 5px;
+  transition-property: width;
+  transition-duration: 3s;
+}
+
+.container:hover div {
+  width: 400px;
+}
+
+.bar1 {
+  transition-timing-function: linear;
+}
+
+.bar2 {
+  transition-timing-function: ease;
+}
+
+.bar3 {
+  transition-timing-function: ease-in;
+}
+
+.bar4 {
+  transition-timing-function: ease-out;
+}
+
+.bar5 {
+  transition-timing-function: ease-in-out;
+}
+
+.test {
+  background: red;
+  width: 100px;
+  transition: width 1s ease-in-out;
+}
+
+.test:hover {
+  width: 300px;
+  opacity: 1;
+}
+
+.box {
+  width: 100px;
+  height: 100px;
+  background: red;
+  margin: 200px;
+  transition: 2s;
+}
+
+.box:hover {
+  width: 200px;
+  height: 200px;
+  transform: rotate(270deg);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  /* 크기 변경 */
+  /* transform: scale(2, 3); */
+  /* 각도 변경 */
+  /*transform: rotate(45deg);
+  transform-origin: left top; */
+
+  /* transform: skew(15deg, 30deg); */

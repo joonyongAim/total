@@ -1,0 +1,19 @@
+const url = "ws://localhost:8181/chat/chatingServer";
+
+let webSocket = new WebSocket(url);
+let chatWindow = document.querySelector('#chatWindow');
+let msg = document.querySelector('#msg');
+let chatId = document.querySelector('#chatId');
+
+function sendMsg() {
+	chatWindow.innerHTML += '<div class="myMsg">' + msg.value + '</div>';
+	webSocket.send(chatId.value + " : " + msg.value);
+	msg.value = '';
+	chatWindow.scrollTop = chatWindow.scrollHeight;
+}
+
+function enterKey() {
+	if(window.event.keyCode == 13) {
+		sendMsg()
+	}
+}

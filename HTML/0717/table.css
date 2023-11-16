@@ -1,0 +1,15 @@
+table {
+  width: 50%;
+  text-align: center;
+  border: 1px solid red;
+  /* border-collapse: collapse; */
+  table-layout: fixed;
+  caption-side: bottom;
+  empty-cells: hide;
+}
+
+table td {
+  border: 1px solid blue;
+  height: 100px;
+  vertical-align: middle;
+}

@@ -1,0 +1,24 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form method="post" action="board">
+		<h1>게시글 등록</h1>
+		<input type="hidden" name="command" value="boardWrite">
+		작성자 <input type="text" name="name"> <br>
+		비밀번호 <input type="text" name="pass"> <br>
+		이메일 <input type="email" name="email"> <br>
+		제목 <input type="text" name="title"> <br>
+		내용 <textarea rows="" cols=""></textarea> <br>
+		<input type="submit" value="등록"> 
+		<input type="reset" value="다시 작성">
+		<input type="button" value="목록">
+	</form>
+</body>
+</html>

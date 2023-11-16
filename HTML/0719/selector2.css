@@ -1,0 +1,31 @@
+[href] {
+  color: red;
+}
+
+h1[class] {
+  background: blue;
+}
+
+[class="blue"] {
+  font-size: 30px;
+}
+
+[title~="태그"] {
+  color: tomato;
+}
+
+.wrapper [title|="태그"] {
+  background: pink;
+}
+/* 시작하는 */
+.wrapper [title^="태그"] {
+  color: blue;
+}
+/* 끝나는 */
+.wrapper [title$="태그"] {
+  color: teal;
+}
+/* 포함하는 */
+.wrapper [title*="태그"] {
+  color: red;
+}

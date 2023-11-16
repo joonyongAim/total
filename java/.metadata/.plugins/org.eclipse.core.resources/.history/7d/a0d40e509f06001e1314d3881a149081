@@ -1,0 +1,37 @@
+package 배열;
+
+import java.util.Scanner;
+
+public class Test04 {
+
+	public static void main(String[] args) {
+		int i,j;
+		int tmp;
+		
+		int[] score = new int[5];
+		
+		Scanner sc = new Scanner(System.in);
+		
+		for(i=0;i<score.length;i++) {
+			System.out.print(i+1+"번째 점수 : ");
+			score[i] = sc.nextInt();
+		}
+		
+		for(i=0;i<score.length; i++) {
+			for(j=i;i<score.length; i++) {
+				if(score[i] < score[j]) {
+					tmp = score[i];
+					score[i] = score[j];
+					score[j] = tmp;
+					System.out.println("1위 : " + score[i]);
+					System.out.println("2위 : " + score[i]);
+					System.out.println("3위 : " + score[i]);
+					System.out.println("4위 : " + score[i]);
+					System.out.println("5위 : " + score[i]);
+				}
+			}
+		}
+			
+	}
+
+}

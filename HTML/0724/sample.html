@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <div>div태그-시작</div>
+
+  <ul>
+    <li>li태그</li>
+  </ul>
+
+  <div>div태그-끝</div>
+
+  <table id="table">
+    <tr>
+      <td>1</td>
+      <td>2</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>4</td>
+    </tr>
+  </table>
+
+  <script>
+    // for(let node of document.body.childNodes) {
+    //   console.log(node);
+    // }
+
+    console.log(document.head.parentNode === document.documentElement);
+    console.log(document.head.nextSibling);
+    console.log(document.body.previousSibling);
+
+    console.log(table.rows[0].cells[1]);
+
+  </script>
+  
+  <!-- <script src="./sample.js"></script> -->
+  <script src="./sample2.js"></script>
+</body>
+</html>

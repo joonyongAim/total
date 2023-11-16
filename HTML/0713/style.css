@@ -1,0 +1,30 @@
+/* 전체 선택자 */
+* {
+  color: brown;
+  text-align: center;
+}
+
+/* 타입 선택자 */
+p {
+  color: red;
+}
+
+/* 클래스 선택자 */
+.blue {
+  color: blue;
+}
+
+/* 아이디 선택자 */
+#pink {
+  color: pink;
+}
+
+/* 그룹 선택자 */
+.blue, #pink {
+  background-color: yellow;
+}
+
+/* 하위 선택자 */
+#second h6 {
+  color: red;
+}

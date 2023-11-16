@@ -1,0 +1,36 @@
+div {
+  width: 100px;
+  height: 100px;
+  position: relative;
+
+  animation: div 3s 0s linear infinite alternate-reverse;
+}
+
+
+@keyframes div {
+  0% {
+    top: 0; left: 0;
+    background: red;
+  }
+  
+  25% {
+    top: 0; left: 200px;
+    background: blue;
+  }
+
+  50% {
+    top: 200px; left: 200px;
+    background: yellow;
+  }
+
+  75% {
+    top: 200px; left: 0;
+    background: skyblue;
+  }
+
+  100% {
+    top: 0; left: 0;
+    background: green;
+  }
+
+}

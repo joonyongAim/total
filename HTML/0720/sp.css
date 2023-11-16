@@ -1,0 +1,44 @@
+.header {
+  background: tomato;
+}
+
+.aside1 {
+  background: yellow;
+  flex: 1;
+}
+
+.content {
+  background: purple;
+  flex: 4;
+}
+
+.aside2 {
+  background: yellowgreen;
+  flex: 1;
+}
+
+.footer {
+  background: skyblue;
+}
+
+.wrapper {
+  display: flex;
+}
+
+@media screen and (max-width: 768px) {
+  .wrapper {
+    flex-direction: column;
+  }
+  .content {
+    order: 0;
+  }
+
+  .aside1 {
+    order: 1;
+  }
+
+  .aside2 {
+    order: 2;
+  }
+  
+}

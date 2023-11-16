@@ -1,0 +1,21 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<div id="wrap" align="center">
+		<h1>회원 기능</h1>
+		<table class="list">
+			<tr>
+				<th>로그인</th>
+				<th>로그아웃</th>
+				<th>회원가입</th>
+			</tr>
+		</table>
+	</div>
+</body>
+</html>

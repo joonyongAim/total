@@ -1,0 +1,32 @@
+.container {
+  width: 100vw;
+  height: 200px;
+  border: 1px solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.box {
+  border: 1px solid red;
+  width: 33%;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex: 1;
+}
+
+.item1 {
+  background: yellow;
+  float: left;
+  width: 50%;
+  height: 100px;
+}
+
+.item2 {
+  background: yellowgreen;
+  float: right;
+  width: 50%;
+  height: 100px;
+}

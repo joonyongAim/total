@@ -1,0 +1,71 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  width: 400px;
+  height: 700px;
+  background: yellow;
+  margin: 20px auto;
+}
+
+.empty {
+  height: 350px;
+}
+
+.p-img {
+  background: url("../img/bambi.jpg") center center no-repeat;
+  background-size: cover;
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  margin: auto;
+}
+
+.profile p {
+  text-align: center;
+}
+
+.name {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.profile {
+  margin-bottom: 10px;
+}
+
+.btn {
+  float: left;
+  width: 25%;
+  text-align: center;
+  font-size: 13px;
+}
+
+.btn-img {
+  height: 60px;
+}
+
+.chat-icon {
+  background: url("../img/message.png") center center no-repeat;
+  background-size: 45px;
+}
+
+.phone-icon {
+  background: url("../img/call.png") center center no-repeat;
+  background-size: 45px;
+}
+
+.vedio-icon {
+  background: url("../img/callvideo.png") center center no-repeat;
+  background-size: 45px;
+}
+
+.qout-icon {
+  background: url("../img/comma.png") center center no-repeat;
+  background-size: 45px;
+}
+
+

@@ -1,0 +1,33 @@
+ol {
+  list-style-type: decimal;
+}
+
+/*ul {
+  background-color: blueviolet;
+  list-style-image: url("../img/pepe.jpg");
+}
+
+#first li {
+  background-color: pink;
+}
+
+#second li {
+  background-color: deeppink;
+}*/
+
+/*li {
+  list-style-type: none;
+  background-image: url("../img/pepe.jpg");
+  background-position: left center;
+  background-repeat: no-repeat;
+  background-size: 20px;
+  padding: 20px 0 0 20px;
+}*/
+
+#first {
+  list-style-position: inside;
+}
+
+#second {
+  list-style-position: outside;
+}

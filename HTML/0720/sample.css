@@ -1,0 +1,44 @@
+body {
+  background: skyblue;
+}
+
+@media screen and (max-width: 800px) {
+  body {
+    background: pink;
+  }
+}
+
+.container {
+  height: 100vh;
+  background: palegoldenrod;
+  display: flex;
+  justify-content: space-around;
+}
+
+.container > div {
+  background: peru;
+  height: 200px;
+  width: 25%;
+  border: 1px solid;
+  margin: 5px;
+}
+
+@media screen and (min-width: 600px) and (max-width: 900px) {
+  .container {
+    flex-wrap: wrap;
+  }
+
+  .container > div {
+    width: 45%;
+  }
+}
+
+@media screen and (max-width: 599px){
+  .container {
+    flex-direction: column;
+  }
+  .container > div {
+    width: 100%;
+  }
+}
+  

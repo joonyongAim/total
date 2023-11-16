@@ -1,0 +1,36 @@
+div {
+  width: 100px;
+  height: 100px;
+  background: red;
+  position: relative;
+ /* animation-name: ani;
+  animation-duration: 3s; /*실행되는시간*/
+ /* animation-timing-function: linear;
+  animation-delay: 2s; /*딜레이*/
+ /* animation-iteration-count: infinite; /*횟수*/
+  /*animation-direction: alternate-reverse;/*방향*/
+
+  animation: ani 3s 0s linear;
+  animation-fill-mode: both;
+}
+
+div:hover {
+  animation-play-state: paused;
+}
+
+@keyframes ani {
+  0% {
+    left: 0;
+    background: blue;
+  }
+
+  50% {
+    left: 200px;
+    background: green;
+  }
+
+  100% {
+    left: 400px;
+    background: palegreen;
+  }
+}

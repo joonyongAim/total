@@ -1,0 +1,35 @@
+.container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: repeat(3, 200px);
+  height: 600px;
+  gap: 10px;
+  grid-template-areas: 
+      "h h h"
+      "a . c"
+      "f f f";
+}
+
+header {
+  background: skyblue;
+  grid-area: h;
+  /* grid-column-start: 1;
+  grid-column-end: 4; */
+}
+
+aside {
+  background: pink;
+  grid-area: a;
+}
+
+content {
+  background: yellowgreen;
+  grid-area: c;
+  /* grid-column: 2 / 4; */
+}
+
+footer {
+  background: paleturquoise;
+  grid-area: f;
+  /* grid-column: 1 / 4; */
+}

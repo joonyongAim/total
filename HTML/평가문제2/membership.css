@@ -1,0 +1,27 @@
+.membership {
+  margin: auto;
+  width: 320px;
+}
+
+h3 {
+  text-align: center;
+}
+
+h4 {
+  margin-bottom: 0;
+}
+
+.button {
+  width: 100px;
+  height: 35px;
+  border-radius: 5px;
+  border: none;
+  background-color: royalblue;
+  color: white;
+  margin-top: 20px;
+
+}
+
+.name, .email, .pw {
+  width: 300px;
+}

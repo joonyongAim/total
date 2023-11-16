@@ -1,0 +1,15 @@
+package movie.dao;
+
+public class MovieUserDAO {
+	private MovieUserDAO() {
+		
+	}
+	
+	private static MovieUserDAO instance = new MovieUserDAO();
+	
+	public static MovieUserDAO getInstance() {
+		return instance;
+	}
+	
+	
+}

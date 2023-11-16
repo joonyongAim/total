@@ -1,0 +1,15 @@
+h5 ~ p {
+  color: red;
+}
+
+h5 + p {
+  background: pink;
+}
+
+input[type="radio"]:checked + label{
+  color: red;
+}
+
+.wrapper > p {
+  background: red;
+}

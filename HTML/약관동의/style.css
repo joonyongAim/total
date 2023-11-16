@@ -1,0 +1,29 @@
+.container {
+  text-align: center;
+}
+
+.box {
+  border: 1px solid;
+  width: 200px;
+  height: 200px;
+  overflow: scroll;
+  margin: auto;
+}
+
+#chk:disabled + label {
+  color: lightgray;
+}
+
+body {
+  height: 5000px;
+}
+
+.bar {
+  border: 1px solid;
+  width: 0;
+  height: 5px;
+  background: red;
+
+  position: fixed;
+  top: 0;
+}

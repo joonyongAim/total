@@ -1,0 +1,49 @@
+.container {
+  height: 500px;
+  border: 1px solid;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.item {
+  width: 200px;
+  background: red;
+  margin: 5px;
+}
+
+.container div:first-child {
+  height: 100px;
+}
+
+.container div:last-child {
+  height: 200px;
+}
+
+.container2 {
+  height: 500px;
+  /* width: 500px; */
+  border: 1px solid;
+  display: flex;
+  /* flex-direction: row;
+  flex-wrap: wrap; */
+  /* flex-flow: row wrap; */
+  align-content: space-between;
+}
+
+.container2 > div {
+  width: 100px;
+  height: 100px;
+  /* margin: 5px; */
+  margin: auto;
+}
+
+.item1 {
+  background: skyblue;
+}
+.item2 {
+  background: pink;
+}
+.item3 {
+  background: greenyellow;
+}

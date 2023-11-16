@@ -1,0 +1,23 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.carousel {
+  width: 300vw;
+  transition: all 1s;
+}
+
+.box {
+  width: 100vw;
+  float: left;
+}
+
+.box img {
+  width: 100%;
+}
+
+.container {
+  overflow: hidden;
+}

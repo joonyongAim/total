@@ -1,0 +1,19 @@
+.black-bg {
+  background: rgba(0, 0, 0, 0.5);
+  padding: 30px;
+  position: fixed;
+
+  visibility: hidden;
+  opacity: 0;
+  transition: all 1s;
+}
+
+.white-bg {
+  background: white;
+  padding: 30px;
+}
+
+.show {
+  visibility: visible;
+  opacity: 1;
+}

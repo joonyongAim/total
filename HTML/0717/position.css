@@ -1,0 +1,73 @@
+.container {
+  width: 800px;
+  height: 800px;
+  border: 1px solid red;
+  position: relative;
+}
+
+.position {
+  position: absolute;
+  bottom: 50%;
+  right: 50%;
+  transform: translate(50%, 50%);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.wrapper {
+  margin: 200px;
+  width: 600px;
+  height: 600px;
+  border: 1px solid red;
+  position: relative;
+}
+
+.content {
+  width: 100px;
+  height: 100px;
+  background: skyblue;
+  position: absolute;
+  left: 0%;
+  top: 0%;
+  transform: translate(250%, 550%);
+}
+
+.wrapper div {
+  width: 100px;
+  height: 100px;
+  background: skyblue;
+  position: absolute;
+}
+
+.box1 {
+  transform: translate(-100px,0);
+}
+
+.box12 {
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.box13 {
+  left: 0;
+  bottom: 50%;
+  transform: translate(-50%, 50%);
+}
+
+.box14 {
+  right: 0;
+  top: 50%;
+  transform: translate(50%, -50%);
+}
+
+.box15 {
+  left: 50%;
+  bottom: 0;
+  transform: translate(-50%, 50%);
+}
+
+
+

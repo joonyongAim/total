@@ -1,0 +1,28 @@
+p {
+  font-size: 20px;
+  font-weight: bolder;
+  line-height: 50%;
+  font-family: '돋움체', 'Arial Narrow', Arial, sans-serif;
+  font-style: oblique;
+  font-variant: small-caps;
+}
+/*font: [font-weight font-style font-variant] [font-size line-height] [font-family];*/
+h1 {
+  font: bold italic small-caps 20px/50% '굴림','돋움';
+  color: red;
+  text-decoration: none;
+}
+
+h2 {
+  text-transform: capitalize;
+            /*  x   y  퍼짐 색  */
+  text-shadow: 5px 5px 3px red, 5px 5px 2px blue;
+  letter-spacing: 1px;
+  word-spacing: 20px;
+  text-align: center;
+}
+
+h3 {
+  direction: ltr;
+  text-indent: 50px;
+}

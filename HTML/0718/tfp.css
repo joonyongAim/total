@@ -1,0 +1,28 @@
+.wrapper {
+  width: 300px;
+  height: 200px;
+  border: 1px solid red;
+  position: relative;
+  margin: auto;
+  overflow: hidden;
+  float: left;
+}
+
+.desc {
+  width: 300px;
+  height: 200px;
+  background: rgba(0, 0, 0, 0.6);
+  color: white;
+  top: 0;
+  left: -300px;
+  transition: 2s;
+  opacity: 0;
+
+}
+
+.wrapper:hover .desc {
+  transform: translate(300px, 0);
+  opacity: 1;
+
+}
+

@@ -1,0 +1,41 @@
+ul > li {
+  float: left;
+  list-style: none;
+  background: yellow;
+  width: 100px;
+  text-align: center;
+  margin-right: 10px;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul > li:hover {
+  opacity: 0.7;
+}
+
+p {
+  display: block;
+  content: "";
+  clear: both;
+}
+
+ol > li {
+  list-style: none;
+}
+
+ol > li::before {
+  content: "♥";
+  margin-right: 10px;
+}
+
+.sale::after {
+  content: "SALE";
+  background: tomato;
+  font-size: 12px;
+  padding: 2px 5px;
+  border-radius: 10%;
+}
+
+

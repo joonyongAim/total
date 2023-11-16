@@ -1,0 +1,28 @@
+.menu {
+  background: pink;
+  width: 500px;
+  height: 100px;
+}
+
+.nav {
+  float: left;
+  background: aqua;
+  width: 100px;
+  height: 300px;
+}
+
+.content {
+  float: left;
+  background: skyblue;
+  width: 400px;
+  height: 300px;
+}
+
+.comment {
+  clear: both;
+  background: green;
+  width: 500px;
+  height: 100px;
+}
+
+
